@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body > div {
+    height: 100vh;
+    width: 100vh;
+    background-color: blueviolet;
+}
+
+body > div > div{
+    height: 90vh;
+    width: 90vh;
+    background-color: rgb(62, 46, 77);
+}
+
+body > div > div > div{
+    height: 80vh;
+    width: 80vh;
+    background-color: rgb(52, 7, 94);
+}
+
+body > div > div > div > div{
+    height: 70vh;
+    width: 70vh;
+    background-color: rgb(137, 124, 148);
+}
+
+body > div > div > div > div > div{
+    height: 60vh;
+    width: 60vh;
+    background-color: rgb(115, 29, 196);
+}
+
+body > div > div> div> div> div> div{
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(102, 83, 119);
+}
+
+body > div > div> div> div> div> div> div{
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(37, 4, 68);
+}
+
+body > div > div> div> div> div> div> div> div{
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(87, 61, 112);
+}
+
+body > div > div> div> div> div> div> div> div> div{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(36, 5, 65);
+}
+
+body > div > div> div> div> div> div> div> div> div> div{
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(104, 8, 194);
+}
