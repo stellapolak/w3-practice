@@ -7,7 +7,7 @@ console.log('load') /*tűzvédelmi eljárás*/ /*metódus*/
 async function loadEvent() {
     let countriesData = await fetch("https://restcountries.com/v3.1/all")
     let countriesJson = await countriesData.json()
-    console.log(countriesData[111])
+    console.log(countriesData[10])
 
     let countriesSection = document.getElementById("countries") 
     //console.dir(countriesSection);
@@ -35,8 +35,8 @@ function countryComponent(countryName){
 }
 
 
-   for (let index = 0; index < countriesJson.length; index++) {
-       console.log(index)
+   for (let index = 0; index < 10; index++){
+        console.log(index) 
        //countriesSection.insertAdjacentHTML("beforeend", countriesJson[index].name.common)
        countriesSection.insertAdjacentHTML("beforeend", countryComponent(countriesJson[index].name.common))
     }
